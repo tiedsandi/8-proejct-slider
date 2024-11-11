@@ -278,6 +278,10 @@ ul {
   border: 4px solid var(--primary-200);
   box-shadow: var(--shadow-3);
 }
+.img-container {
+  display: flex;
+  justify-content: center;
+}
 
 .name {
   text-transform: uppercase;
@@ -349,6 +353,9 @@ ul {
   width: 80vw;
   max-width: 800px;
   text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
 }
 .slick-slide img {
   display: inline-block;
